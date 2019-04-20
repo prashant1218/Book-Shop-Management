@@ -4,6 +4,8 @@ public class Item{
     public int mrp;
     public  void addItem(String itemName,int mrpItem){
         //write your code here
+    	this.itemName=itemName;
+    	this.mrp=mrpItem;
     	//-------------------
 
     }
